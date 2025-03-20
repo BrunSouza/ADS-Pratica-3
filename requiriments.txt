@@ -1,6 +1,5 @@
 scipy
-os
-numpy
-pandas
+numpy             
+pandas            
 matplotlib
-seaborn
+seaborn           

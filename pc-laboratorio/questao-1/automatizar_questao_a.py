@@ -39,9 +39,9 @@ def main():
     algoritmos = ["quick", "merge", "counting"]
     t = 9400000
     max_val = 940000
-    repeticoes = 30
+    repeticoes = 38
 
-    with open("resultados_detalhados.csv", "w", newline="") as arquivo_csv:
+    with open("pc-laboratorio/questao-1/resultados/resultado_questao_a.csv", "w", newline="") as arquivo_csv:
         escritor = csv.writer(arquivo_csv)
         escritor.writerow(["Algoritmo", "TamanhoDaEntrada", "ValorMaximo", "TempoDeOrdenacao"])
         

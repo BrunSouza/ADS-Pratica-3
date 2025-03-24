@@ -6,7 +6,7 @@ import csv
 
 def executar_algoritmo(algoritmo, t, max_val, repeticoes):
     tempos = []
-    caminho_programa = os.path.expanduser("~/downloads/ADS-Lab4/bin")
+    caminho_programa = os.path.expanduser("~/downloads/ADS-PRATICA-3/ADS-Lab4/bin")
     for _ in range(repeticoes):
         resultado = subprocess.run([
             "java", "-cp", caminho_programa, "MedidorDeOrdenacao", algoritmo, str(t), str(max_val)

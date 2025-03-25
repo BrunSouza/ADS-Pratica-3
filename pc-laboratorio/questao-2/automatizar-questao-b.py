@@ -42,7 +42,7 @@ def main():
     repeticoes = 30
     margem_erro_max = 0.02  # Margem de erro de 2%
 
-    with open("pc-laboratorio/questao-2/resultados/resultado_questao_a.csv", "w", newline="") as arquivo_csv:
+    with open("pc-laboratorio/questao-2/resultados/resultado_questao_b.csv", "w", newline="") as arquivo_csv:
         escritor = csv.writer(arquivo_csv)
         escritor.writerow(["Algoritmo", "TamanhoDaEntrada", "ValorMaximo", "TempoDeOrdenacao", "IntervaloInferior", "IntervaloSuperior", "ErroPadrao"])
 

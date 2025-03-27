@@ -37,7 +37,7 @@ def calcular_intervalo_confianca(tempos, confianca=0.95):
 
 def main():
     algoritmos = ["quick", "merge", "counting"]
-    tamanhos_entrada =  9400000 # Dois tamanhos de entrada diferentes
+    tamanhos_entrada =  9400000 
     max_val = [940000, 94000000]
     repeticoes = 30
     margem_erro_max = 0.02  # Margem de erro de 2%
@@ -58,7 +58,6 @@ def main():
                 else:
                     print(f"Algoritmo {algoritmo} com tamanho {t}: ALTO erro ({erro_padrao / media:.4f})")
 
-                # Escrever no arquivo CSV
                 escritor.writerow([algoritmo, t, max_val, media, intervalo_inferior, intervalo_superior, erro_padrao])
 
             # Analisar o melhor e pior algoritmo com base nos intervalos de confiança

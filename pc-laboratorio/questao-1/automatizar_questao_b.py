@@ -39,7 +39,7 @@ def main():
     algoritmos = ["quick", "merge", "counting"]
     t = 9400000
     max_val = 940000
-    repeticoes = 38 #Usa o número máximo de amostras obtidos anteriormente
+    repeticoes = 21 #Usa o número máximo de amostras obtidos anteriormente
 
     with open("pc-laboratorio/questao-1/resultados/resultado_questao_b.csv", "w", newline="") as arquivo_csv:
         escritor = csv.writer(arquivo_csv)

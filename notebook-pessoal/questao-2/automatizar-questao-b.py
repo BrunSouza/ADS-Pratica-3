@@ -39,7 +39,7 @@ def main():
     algoritmos = ["quick", "merge", "counting"]
     tamanho_entrada = 9400000  # Mantemos fixo em 9,4 milhões
     valores_maximos = [940000, 94000000]  # Testamos com 940 mil e 94 milhões
-    repeticoes = 30
+    repeticoes = 3
     margem_erro_max = 0.02  # Margem de erro de 2%
 
     with open("notebook-pessoal/questao-2/resultados/resultado_questao_b.csv", "w", newline="") as arquivo_csv:

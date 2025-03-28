@@ -37,8 +37,8 @@ def calcular_intervalo_confianca(tempos, confianca=0.95):
 
 def main():
     algoritmos = ["quick", "merge", "counting"]
-    tamanhos_entrada =  9400000 
-    max_val = [940000, 94000000]
+    tamanhos_entrada = [9400000, 94000000]
+    max_val = 940000
     repeticoes = 30
     margem_erro_max = 0.02  # Margem de erro de 2%
 

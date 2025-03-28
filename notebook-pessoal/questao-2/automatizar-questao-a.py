@@ -37,9 +37,9 @@ def calcular_intervalo_confianca(tempos, confianca=0.95):
 
 def main():
     algoritmos = ["quick", "merge", "counting"]
-    tamanhos_entrada =  9400000 # Dois tamanhos de entrada diferentes
-    max_val = [940000, 94000000]
-    repeticoes = 30
+    tamanhos_entrada =  [9400000, 94000000] # Dois tamanhos de entrada diferentes
+    max_val = 940000
+    repeticoes = 3
     margem_erro_max = 0.02  # Margem de erro de 2%
 
     with open("notebook-pessoal/questao-2/resultados/resultado_questao_a.csv", "w", newline="") as arquivo_csv:

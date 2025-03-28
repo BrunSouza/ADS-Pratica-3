@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-
 public class MedidorDeOrdenacao {
 
 	public static final String QUICK_SORT = "quick";
